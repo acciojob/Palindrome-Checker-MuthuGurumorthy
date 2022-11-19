@@ -6,9 +6,9 @@ function palindrome(str){
 
         // check if first and last string are same
         if (str[i] !== str[len - 1 - i]) {
-            return 'fasle';
+            return 'false';
         }
     }
-    return 'false';
+    return 'true';
 }
 module.exports = palindrome
